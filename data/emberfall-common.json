@@ -1,0 +1,24 @@
+{
+ "repo": "emberfall-common",
+ "history": [
+  {
+   "lines": {
+    "count": 5278,
+    "covered": 4978,
+    "percent": 94.32
+   },
+   "functions": {
+    "count": 935,
+    "covered": 872,
+    "percent": 93.26
+   },
+   "regions": {
+    "count": 9943,
+    "covered": 9496,
+    "percent": 95.5
+   },
+   "commit": "8a81c8a63e98e99a6f56b597e5278209ccd48d70",
+   "date": "2026-11-19 22:41 UTC"
+  }
+ ]
+}

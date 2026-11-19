@@ -1,1 +1,33 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Couverture Emberfall</title></head><body><p>Première mesure en cours…</p></body></html>
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Couverture Emberfall</title>
+<style>
+:root { color-scheme: light dark; --bg: #f6f3ec; --fg: #2c2a26; --muted: #6d675d; --line: #ddd5c4; --card: #fffdf8; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1c1a; --fg: #ece6da; --muted: #a59e90; --line: #3a3732; --card: #262522; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, sans-serif; }
+main { max-width: 1000px; margin: 0 auto; padding: 32px 16px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; } p { color: var(--muted); margin: 0 0 24px; }
+.wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; min-width: 720px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
+th { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+tr:last-child td { border-bottom: 0; } td.n { font-variant-numeric: tabular-nums; } .trend { color: var(--muted); }
+a { color: inherit; } small { color: var(--muted); }
+</style></head>
+<body><main>
+<h1>Couverture de code d'Emberfall</h1>
+<p>Part du code exécutée par les tests (cargo-llvm-cov), mise à jour à chaque poussée sur <code>main</code>. Cliquer sur un dépôt pour voir chaque fichier ligne par ligne.</p>
+<div class="wrap"><table>
+<thead><tr><th>Dépôt</th><th>Lignes</th><th>Lignes couvertes</th><th>Fonctions</th><th>Régions</th><th>Évolution</th><th>Dernière mesure</th></tr></thead>
+<tbody>
+<tr>
+<td><a href="emberfall-common/index.html"><strong>emberfall-common</strong></a><br><small>Règles partagées, protocole, simulation</small></td>
+<td><img src="badges/emberfall-common.svg" alt="94.32 %"></td>
+<td class="n">4978 / 5278</td>
+<td class="n">93.26 %</td>
+<td class="n">95.5 %</td>
+<td class="trend"></td>
+<td><small>2026-11-19 22:41 UTC<br><code>8a81c8a6</code></small></td>
+</tr>
+</tbody></table></div>
+</main></body></html>
