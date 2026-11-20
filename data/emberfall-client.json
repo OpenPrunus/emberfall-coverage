@@ -76,6 +76,25 @@
    },
    "commit": "188572c694016889f4f621ed45f66172305fdfd1",
    "date": "2026-11-20 02:29 UTC"
+  },
+  {
+   "lines": {
+    "count": 14801,
+    "covered": 13266,
+    "percent": 89.63
+   },
+   "functions": {
+    "count": 2114,
+    "covered": 1874,
+    "percent": 88.65
+   },
+   "regions": {
+    "count": 27995,
+    "covered": 25572,
+    "percent": 91.34
+   },
+   "commit": "e60b8a1ac4ed645db360d05151f999f55a36b1e4",
+   "date": "2026-11-20 08:19 UTC"
   }
  ]
 }
