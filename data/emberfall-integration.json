@@ -1,0 +1,24 @@
+{
+ "repo": "emberfall-integration",
+ "history": [
+  {
+   "lines": {
+    "count": 13937,
+    "covered": 5608,
+    "percent": 40.24
+   },
+   "functions": {
+    "count": 2166,
+    "covered": 944,
+    "percent": 43.58
+   },
+   "regions": {
+    "count": 23657,
+    "covered": 8183,
+    "percent": 34.59
+   },
+   "commit": "8979b6eb8e68b72d9e12cf01b682218bd50bff35",
+   "date": "2026-11-20 00:43 UTC"
+  }
+ ]
+}
